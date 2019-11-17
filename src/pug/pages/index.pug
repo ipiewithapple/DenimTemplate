@@ -4,5 +4,21 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible" content="ie=edge")
-    title Document
+    title Nîmes
   body
+    header.header
+      .container
+        span.logo Nîmes
+      .header__wrapper
+        .container
+          .header__top
+            nav.nav.header__nav
+              ul.nav__list
+                li.nav__list-item: a.nav__list-link(href="#") Woman
+                li.nav__list-item: a.nav__list-link(href="#") Man
+                li.nav__list-item: a.nav__list-link(href="#") New
+              ul.nav__cart
+                li.nav__cart-item
+                  a.nav__cart-link.nav__cart-link--search(href="#")
+                li.nav__cart-item
+                  a.nav__cart-link.nav__cart-link--cart(href="#")

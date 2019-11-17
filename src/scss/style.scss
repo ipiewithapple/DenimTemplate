@@ -1,8 +1,36 @@
-// mixins
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+// FontAwesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
 
-// global
-
-// imports
-// variables
+// Variables
 @import "variables.scss";
-// blocks
+
+// Mixins
+
+// Global
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $text-dark;
+}
+
+// Imports
+@import "blocks/logo.scss";
+@import "blocks/container.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+

@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.nav__list,
+.nav__cart {
+  display: flex;
+  list-style: none;
+}
+
+.nav__cart-item,
+.nav__list-item {
+  margin-right: 25px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__list-link {
+  text-decoration: none;
+  color: $text-dark;
+}
+
+.nav__cart-link {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+
+  &--search {
+    background: url("../img/icons/search.svg") no-repeat center center;
+    background-size: contain;
+
+  }
+
+  &--cart {
+    background: url("../img/icons/cart.svg") no-repeat center center;
+    background-size: contain;
+  }
+
+}
