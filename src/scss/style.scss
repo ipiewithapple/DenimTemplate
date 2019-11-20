@@ -13,6 +13,11 @@
 * {
   margin: 0;
   padding: 0;
+
+  & *::selection {
+    background: $text-light;
+    color: $text-dark;
+  }
 }
 
 img {
@@ -22,7 +27,7 @@ img {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   color: $text-dark;
