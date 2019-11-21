@@ -1,0 +1,27 @@
+.clother-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clother-list__item {
+  padding: 0 5%;
+  margin-bottom: 30px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.clother-list__link {
+  display: inline-block;
+  text-decoration: none;
+  color: $text-dark;
+}
+
+.clother-list__name {
+  margin: 10px 0 5px;
+}
+
+.clother-list__price {
+  font-size: 0.875rem;
+  font-weight: 700;
+}

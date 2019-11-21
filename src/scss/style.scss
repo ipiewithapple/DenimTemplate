@@ -20,12 +20,6 @@
   }
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
@@ -33,9 +27,35 @@ body {
   color: $text-dark;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+span {
+  display: block;
+}
+
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $text-dark;
+  cursor: pointer;
+}
+
+// Other
+
+.section-title {
+  font-size: 1.625rem;
+  margin-bottom: 40px;
+}
+
 // Imports
 @import "blocks/logo.scss";
 @import "blocks/container.scss";
 @import "blocks/header.scss";
 @import "blocks/nav.scss";
-
+@import "blocks/bestsellers.scss";
+@import "blocks/clother-list.scss";

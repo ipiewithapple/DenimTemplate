@@ -7,4 +7,30 @@ html(lang="en")
     title Nîmes
   body
     include ../includes/header-main.pug
+    main.main
+      section.bestsellers
+        .container
+          h2.section-title Bestsellers
+        ul.clother-list
+          li.clother-list__item
+            a.clother-list__link(href="#")
+              img.clother-list__img(src="img/Jacket1.jpg", alt="Jacket")
+              span.clother-list__name Jacket
+            span.clother-list__price $ 120
+          li.clother-list__item
+            a.clother-list__link(href="#")
+              img.clother-list__img(src="img/Overalls1.jpg", alt="Overalls")
+              span.clother-list__name Overalls
+            span.clother-list__price $ 140
+          li.clother-list__item
+            a.clother-list__link(href="#")
+              img.clother-list__img(src="img/Jacket2.jpg", alt="Jacket")
+              span.clother-list__name Jacket
+            span.clother-list__price $ 90
+          li.clother-list__item
+            a.clother-list__link(href="#")
+              img.clother-list__img(src="img/Overalls2.jpg", alt="Overalls")
+              span.clother-list__name Overalls
+            span.clother-list__price $ 160
+        button.bestsellers__more View all
 
