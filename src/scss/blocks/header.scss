@@ -3,7 +3,7 @@
 }
 
 .header__middle {
-  padding: 0 15% 50px;
+  padding: 0 13% 50px;
   margin-top: 60px;
 }
 
@@ -45,6 +45,7 @@
 }
 
 .header__slogan {
+  font-size: 1.125rem;
   color: $text-light;
   text-align: center;
 }
@@ -59,8 +60,5 @@
 .header__btn {
   width: 100%;
   padding: 25px 0px;
-  background-color: $dark;
-  border: none;
-  font-weight: 700;
-  color: #ffffff;
+  @include btn;
 }

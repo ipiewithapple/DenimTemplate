@@ -1,36 +1,40 @@
-<!DOCTYPE html>
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible" content="ie=edge")
-    title Nîmes
-  body
-    include ../includes/header-main.pug
-    main.main
-      section.bestsellers
-        .container
-          h2.section-title Bestsellers
-        ul.clother-list
-          li.clother-list__item
-            a.clother-list__link(href="#")
-              img.clother-list__img(src="img/Jacket1.jpg", alt="Jacket")
-              span.clother-list__name Jacket
-            span.clother-list__price $ 120
-          li.clother-list__item
-            a.clother-list__link(href="#")
-              img.clother-list__img(src="img/Overalls1.jpg", alt="Overalls")
-              span.clother-list__name Overalls
-            span.clother-list__price $ 140
-          li.clother-list__item
-            a.clother-list__link(href="#")
-              img.clother-list__img(src="img/Jacket2.jpg", alt="Jacket")
-              span.clother-list__name Jacket
-            span.clother-list__price $ 90
-          li.clother-list__item
-            a.clother-list__link(href="#")
-              img.clother-list__img(src="img/Overalls2.jpg", alt="Overalls")
-              span.clother-list__name Overalls
-            span.clother-list__price $ 160
-        button.bestsellers__more View all
+include ../includes/head.pug
+body
+  include ../includes/header-main.pug
+  main.main
+    section.bestsellers
+      .container
+        h2.section-title Bestsellers
+      ul.clother-list
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Jacket1.jpg", alt="Jacket")
+            span.clother-list__name Jacket
+          span.clother-list__price $ 120
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Overalls1.jpg", alt="Overalls")
+            span.clother-list__name Overalls
+          span.clother-list__price $ 140
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Jacket2.jpg", alt="Jacket")
+            span.clother-list__name Jacket
+          span.clother-list__price $ 90
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Overalls2.jpg", alt="Overalls")
+            span.clother-list__name Overalls
+          span.clother-list__price $ 160
+      button.bestsellers__more View all
+    section.collection
+      .container
+        .collection__block
+          span.collection__desc Street fashion collection
+          h2.collection__title Fall 2019
+          button.collection__btn Shop now
+      picture
+        source(media="(min-width: 1366px)", srcset="img/Collection.jpg")
+        source(media="(min-width: 768px)", srcset="img/CollectionT.jpg")
+        img(src="img/CollectionM.jpg", alt="Fall 2019").collection__img
 

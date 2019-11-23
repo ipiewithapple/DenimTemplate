@@ -8,6 +8,12 @@
 @import "variables.scss";
 
 // Mixins
+@mixin btn {
+  background-color: $dark;
+  border: none;
+  font-weight: 700;
+  color: #ffffff;
+}
 
 // Global
 * {
@@ -59,3 +65,4 @@ button {
 @import "blocks/nav.scss";
 @import "blocks/bestsellers.scss";
 @import "blocks/clother-list.scss";
+@import "blocks/collection.scss";
