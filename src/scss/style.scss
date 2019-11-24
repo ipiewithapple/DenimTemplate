@@ -22,7 +22,7 @@
 
   & *::selection {
     background: $text-light;
-    color: $text-dark;
+    color: #ffffff;
   }
 }
 
@@ -52,6 +52,13 @@ button {
 }
 
 // Other
+.logo {
+  display: block;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
 
 .section-title {
   font-size: 1.625rem;
@@ -59,7 +66,6 @@ button {
 }
 
 // Imports
-@import "blocks/logo.scss";
 @import "blocks/container.scss";
 @import "blocks/header.scss";
 @import "blocks/nav.scss";
@@ -67,3 +73,5 @@ button {
 @import "blocks/clother-list.scss";
 @import "blocks/collection.scss";
 @import "blocks/category.scss";
+@import "blocks/footer.scss";
+@import "blocks/social-list.scss";

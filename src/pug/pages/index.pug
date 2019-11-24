@@ -13,7 +13,7 @@ body
           span.clother-list__price $ 120
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Overall1.jpg" alt="Overalls")
+            img.clother-list__img(src="img/Overall1.jpg" alt="Overall")
             span.clother-list__name Overalls
           span.clother-list__price $ 140
         li.clother-list__item
@@ -23,7 +23,7 @@ body
           span.clother-list__price $ 90
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Overall2.jpg" alt="Overalls")
+            img.clother-list__img(src="img/Overall2.jpg" alt="Overall")
             span.clother-list__name Overalls
           span.clother-list__price $ 160
       button.bestsellers__more View all
@@ -43,18 +43,35 @@ body
       ul.clother-list.category__list
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Jeans.jpg" alt="Jacket")
+            img.clother-list__img(src="img/Jeans.jpg" alt="Jeans")
             span.clother-list__name Jeans
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Shirts.jpg" alt="Overalls")
+            img.clother-list__img(src="img/Shirts.jpg" alt="Shirts")
             span.clother-list__name Shirts
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Overalls.jpg" alt="Jacket")
+            img.clother-list__img(src="img/Overalls.jpg" alt="Overalls")
             span.clother-list__name Overalls
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Jackets.jpg" alt="Overalls")
+            img.clother-list__img(src="img/Jackets.jpg" alt="Jackets")
             span.clother-list__name Jackets
       button.bestsellers__more View all
+    footer.footer
+      .container
+        span.logo.footer__logo Nîmes
+        - var footerMenuItems = ["Shop", "Delivery", "Sitemap", "Service", "Contacts"];
+        ul.footer__nav
+          li.footer__nav-item: span.logo.footer__logo.footer__logo--mobile Nîmes
+          each item in footerMenuItems
+            li.footer__nav-item: a(href="#").footer__nav-link= item
+        ul.social-list
+          li.social-list__item
+            a.social-list__link.social-list__link--facebook(href="#")
+          li.social-list__item
+            a.social-list__link.social-list__link--instagram(href="#")
+          li.social-list__item
+            a.social-list__link.social-list__link--pinterest(href="#")
+          li.social-list__item
+            a.social-list__link.social-list__link--twitter(href="#")

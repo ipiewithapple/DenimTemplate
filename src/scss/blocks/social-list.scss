@@ -1,0 +1,32 @@
+.social-list {
+  display: flex;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.social-list__item {
+  margin-right: 35px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social-list__link {
+  display: block;
+  width: 21px;
+  height: 20px;
+
+  &--facebook {
+    background: url("../img/icons/facebook.svg") no-repeat center center;
+  }
+  &--instagram {
+    background: url("../img/icons/instagram.svg") no-repeat center center;
+  }
+  &--pinterest {
+    background: url("../img/icons/pinterest.svg") no-repeat center center;
+  }
+  &--twitter {
+    background: url("../img/icons/twitter.svg") no-repeat center center;
+  }
+}
