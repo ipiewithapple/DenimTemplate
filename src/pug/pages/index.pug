@@ -8,22 +8,22 @@ body
       ul.clother-list
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Jacket1.jpg", alt="Jacket")
+            img.clother-list__img(src="img/Jacket1.jpg" alt="Jacket")
             span.clother-list__name Jacket
           span.clother-list__price $ 120
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Overalls1.jpg", alt="Overalls")
+            img.clother-list__img(src="img/Overall1.jpg" alt="Overalls")
             span.clother-list__name Overalls
           span.clother-list__price $ 140
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Jacket2.jpg", alt="Jacket")
+            img.clother-list__img(src="img/Jacket2.jpg" alt="Jacket")
             span.clother-list__name Jacket
           span.clother-list__price $ 90
         li.clother-list__item
           a.clother-list__link(href="#")
-            img.clother-list__img(src="img/Overalls2.jpg", alt="Overalls")
+            img.clother-list__img(src="img/Overall2.jpg" alt="Overalls")
             span.clother-list__name Overalls
           span.clother-list__price $ 160
       button.bestsellers__more View all
@@ -34,7 +34,27 @@ body
           h2.collection__title Fall 2019
           button.collection__btn Shop now
       picture
-        source(media="(min-width: 1366px)", srcset="img/Collection.jpg")
-        source(media="(min-width: 768px)", srcset="img/CollectionT.jpg")
-        img(src="img/CollectionM.jpg", alt="Fall 2019").collection__img
-
+        source(media="(min-width: 1366px)" srcset="img/Collection.jpg")
+        source(media="(min-width: 768px)" srcset="img/CollectionT.jpg")
+        img(src="img/CollectionM.jpg" alt="Fall 2019").collection__img
+    section.category
+      .container
+        h2.section-title Shop by category
+      ul.clother-list.category__list
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Jeans.jpg" alt="Jacket")
+            span.clother-list__name Jeans
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Shirts.jpg" alt="Overalls")
+            span.clother-list__name Shirts
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Overalls.jpg" alt="Jacket")
+            span.clother-list__name Overalls
+        li.clother-list__item
+          a.clother-list__link(href="#")
+            img.clother-list__img(src="img/Jackets.jpg" alt="Overalls")
+            span.clother-list__name Jackets
+      button.bestsellers__more View all
