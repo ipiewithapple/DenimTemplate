@@ -1,2 +1,2 @@
 # DenimTemplate
-Github Pages - https://ipiewithapple.github.io/DenimTemplate/dist/index.html
+GitHub Pages - https://ipiewithapple.github.io/DenimTemplate/dist/index.html
