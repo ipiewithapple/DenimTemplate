@@ -1,10 +1,12 @@
 .clother-list {
+  margin: 0 -15px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
 
 .clother-list__item {
+  padding: 0 15px;
   margin-bottom: 30px;
   width: 50%;
   box-sizing: border-box;
