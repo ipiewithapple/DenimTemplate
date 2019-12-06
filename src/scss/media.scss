@@ -1,10 +1,12 @@
 // Tablet 768px
 
 @media (min-width: 768px) {
+
   // Container
   .container {
     padding: 0 45px;
   }
+
   // Header
   .header__middle {
     display: flex;
@@ -12,5 +14,14 @@
 
   .header__img {
     order: 1;
+  }
+
+  // Footer
+  .footer__logo {
+    display: block;
+
+    &--mobile {
+      display: none;
+    }
   }
 }
