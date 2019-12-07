@@ -2,21 +2,22 @@
 
 @media (min-width: 768px) {
 
-  // Container
+  // container
   .container {
     padding: 0 45px;
   }
 
-  // Header
+  // header
   .header__middle {
     display: flex;
+    justify-content: flex-end;
   }
 
   .header__img {
     order: 1;
   }
 
-  // Footer
+  // footer
   .footer__logo {
     display: block;
 
