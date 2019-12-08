@@ -1,15 +1,1 @@
-.bestsellers__more {
-  display: block;
-  margin: 10px auto 0;
-  background: none;
-  border: none;
 
-  &::after {
-    content: "";
-    display: block;
-    margin-left: -5%;
-    width: 110%;
-    height: 2px;
-    background-color: $dark;
-  }
-}

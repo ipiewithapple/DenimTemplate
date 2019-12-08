@@ -5,6 +5,12 @@
 .header__middle {
   padding: 0 45px 50px;
   margin-top: 60px;
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .header__img {
@@ -45,9 +51,10 @@
 }
 
 .header__slogan {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: $text-light;
   text-align: center;
+  white-space: nowrap;
 }
 
 .header__name {

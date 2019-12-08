@@ -2,6 +2,19 @@
 
 @media (min-width: 768px) {
 
+  // other
+  .section-title {
+    font-size: 1.750rem;
+    margin-bottom: 60px;
+  }
+
+  .show-more {
+    position: absolute;
+    top: 0;
+    right: 45px;
+    font-size: 1.125rem;
+  }
+
   // container
   .container {
     padding: 0 45px;
@@ -11,10 +24,28 @@
   .header__middle {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30px;
   }
 
   .header__img {
+    width: 40%;
     order: 1;
+  }
+
+  .header__name {
+    font-size: 6.125rem;
+  }
+
+  // clother-list
+
+  .clother-list__name {
+    margin: 25px 0 15px;
+    font-size: 1.125rem;
+  }
+
+  .clother-list__price {
+    font-size: 1rem;
   }
 
   // collection
@@ -22,6 +53,8 @@
     display: flex;
 
     & .container {
+      width: 50%;
+      box-sizing: border-box;
       margin-right: 45px;
       padding: 20px;
       padding-left: 0;
@@ -29,18 +62,21 @@
     }
 
     & picture {
+      width: 50%;
       margin-left: 45px;
     }
   }
 
   .collection__block {
-    padding: 50px 35px 50px 50px;
+    padding: 40px 35px;
+    height: auto;
+    box-sizing: border-box;
     text-align: left;
   }
 
   .collection__title {
     font-size: 2rem;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
 
   // category
