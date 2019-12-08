@@ -43,6 +43,11 @@
     margin-bottom: 24px;
   }
 
+  // category
+  .category__list li:last-child {
+    margin-top: -8%;
+  }
+
   // footer
   .footer__logo {
     display: block;
