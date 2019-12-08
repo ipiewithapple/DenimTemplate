@@ -20,9 +20,51 @@
   // footer
   .footer__logo {
     display: block;
+    text-align: center;
 
     &--mobile {
       display: none;
     }
+  }
+
+  .footer__nav {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .footer__nav-item {
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 35px;
+
+    &:nth-child(1) {
+      order: 0;
+    }
+
+    &:nth-child(2) {
+      order: 1;
+    }
+
+    &:nth-child(3) {
+      order: 2;
+    }
+
+    &:nth-child(4) {
+      order: 3;
+    }
+
+    &:nth-child(5) {
+      order: 4;
+    }
+
+    &:nth-child(6) {
+      margin-right: 0;
+      order: 5;
+    }
+  }
+
+  .social-list {
+    justify-content: center;
+    margin-top: 40px;
   }
 }

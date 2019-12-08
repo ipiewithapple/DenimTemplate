@@ -58,20 +58,5 @@ body
               img.clother-list__img(src="img/Jackets.jpg" alt="Jackets")
               span.clother-list__name Jackets
         button.bestsellers__more View all
-    footer.footer
-      .container
-        span.logo.footer__logo Nîmes
-        - var footerMenuItems = ["Shop", "Delivery", "Sitemap", "Service", "Contacts"];
-        ul.footer__nav
-          li.footer__nav-item.footer__logo--mobile: span.logo.footer__logo.footer__logo--mobile Nîmes
-          each item in footerMenuItems
-            li.footer__nav-item: a(href="#").footer__nav-link= item
-        ul.social-list
-          li.social-list__item
-            a.social-list__link.social-list__link--facebook(href="#")
-          li.social-list__item
-            a.social-list__link.social-list__link--instagram(href="#")
-          li.social-list__item
-            a.social-list__link.social-list__link--pinterest(href="#")
-          li.social-list__item
-            a.social-list__link.social-list__link--twitter(href="#")
+  include ../includes/footer.pug
+
