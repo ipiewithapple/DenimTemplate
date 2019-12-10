@@ -69,3 +69,33 @@
   padding: 25px 0px;
   @include btn;
 }
+
+.header__bottom {
+  display: none;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+
+.header__down-arrow {
+  width: 10px;
+  height: 30px;
+  background: url("../img/icons/down.svg") no-repeat center center;
+}
+
+.header__social {
+  display: flex;
+  list-style: none;
+}
+
+.header__social-item {
+  margin-right: 35px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__social-link {
+  color: $text-dark;
+  text-decoration: none;
+}
