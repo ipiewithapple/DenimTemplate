@@ -47,6 +47,10 @@ section {
   padding: 60px 0;
 }
 
+a:hover, button:hover {
+  opacity: $hover-opacity;
+}
+
 button {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;

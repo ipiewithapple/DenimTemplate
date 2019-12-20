@@ -152,3 +152,39 @@
     margin-top: 40px;
   }
 }
+
+// Desktop 1024px
+
+@media (min-width: 1024px) {
+
+  // other
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 70px;
+  }
+
+  .show-more {
+    right: 98px;
+  }
+
+  // container
+  .container {
+    padding: 0 98px;
+  }
+
+  // clother-list
+  .clother-list__item {
+    width: 25%;
+  }
+
+  .category__list li {
+    &:last-child {
+      margin-top: 0;
+      order: 0;
+    }
+
+    &:nth-child(3) {
+      order: 1;
+    }
+  }
+}
