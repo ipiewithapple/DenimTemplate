@@ -1,5 +1,4 @@
 // Tablet 768px
-
 @media (min-width: 768px) {
 
   // other
@@ -39,6 +38,18 @@
     order: 1;
   }
 
+  .header__gradient {
+    &--left {
+      top: -30px;
+      left: -30px;
+    }
+
+    &--right {
+      bottom: -30px;
+      right: -30px;
+    }
+  }
+
   .header__name {
     font-size: 6.125rem;
     margin-bottom: 30px;
@@ -49,13 +60,11 @@
   }
 
   // bestsellers
-
   .bestsellers {
     padding-bottom: 70px;
   }
 
   // clother-list
-
   .clother-list__name {
     margin: 25px 0 15px;
     font-size: 1.125rem;
@@ -66,7 +75,6 @@
   }
 
   // collection
-
   .collection .container {
     display: flex;
     padding: 0 45px;
@@ -153,7 +161,6 @@
 }
 
 // Desktop 1024px
-
 @media (min-width: 1024px) {
 
   // other
@@ -169,6 +176,107 @@
   // container
   .container {
     padding: 0 98px;
+  }
+
+  // header
+  .header__top {
+    position: absolute;
+    width: calc(100% - 196px);
+    max-width: 1170px;
+  }
+
+  .header__middle {
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    padding: 50px;
+  }
+
+  .header__img {
+    width: 45%;
+    margin-bottom: 0;
+    margin-left: 100px;
+  }
+
+  .header__gradient {
+    &--left {
+      top: -50px;
+      left: -50px;
+      background: repeating-linear-gradient(45deg,
+          transparent,
+          transparent 9px,
+          #000000 10px,
+          #000000 11px);
+    }
+
+    &--right {
+      bottom: -50px;
+      right: -50px;
+      background: repeating-linear-gradient(-45deg,
+          transparent,
+          transparent 9px,
+          #000000 10px,
+          #000000 11px);
+    }
+  }
+
+  .header__name {
+    font-size: 8rem;
+    margin-bottom: 50px;
+  }
+
+  .header__bottom {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: flex-end;
+    width: calc(100% - 98px);
+    max-width: 1170px;
+  }
+
+  .header__social {
+    flex-direction: column;
+  }
+
+  .header__social-item {
+    margin: 0;
+    margin-bottom: 0px;
+
+    &:last-child {
+      order: -1;
+      margin-bottom: 35px;
+    }
+  }
+
+  // nav
+  .nav {
+    align-items: flex-start;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__list-item {
+    margin: 0;
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .nav__cart {
+    flex-direction: column;
+  }
+
+  .nav__cart-item {
+    margin: 0;
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   // clother-list
@@ -188,7 +296,6 @@
   }
 
   // collection
-
   .collection .container {
 
     padding: 0 98px;
@@ -196,8 +303,11 @@
 }
 
 // Desktop 1366px
-
 @media (min-width: 1366px) {
+  // header
+  .header__bottom {
+    width: calc(100% - 196px);
+  }
 
   // collection
   .collection__block-wrap {
