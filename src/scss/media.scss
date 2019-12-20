@@ -193,5 +193,35 @@
 
     padding: 0 98px;
   }
+}
+
+// Desktop 1366px
+
+@media (min-width: 1366px) {
+
+  // collection
+  .collection__block-wrap {
+    flex-basis: 30%;
+    padding: 30px 70px;
+    padding-left: 0;
+    background: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 19px,
+        #000000 20px,
+        #000000 21px);
+  }
+
+  .collection__img {
+    flex-basis: 70%;
+  }
+
+  .collection__title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .collection__block {
+    padding: 70px;
+  }
 
 }
