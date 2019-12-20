@@ -29,14 +29,15 @@ body
         button.show-more View all
     section.collection
       .container
-        .collection__block
-          span.collection__desc Street fashion collection
-          h2.collection__title Fall 2019
-          button.collection__btn Shop now
-      picture
-        source(media="(min-width: 1366px)" srcset="img/Collection.jpg")
-        source(media="(min-width: 768px)" srcset="img/CollectionT.jpg")
-        img(src="img/CollectionM.jpg" alt="Fall 2019").collection__img
+        .collection__block-wrap
+          .collection__block
+            span.collection__desc Street fashion collection
+            h2.collection__title Fall 2019
+            button.collection__btn Shop now
+        picture
+          source(media="(min-width: 1366px)" srcset="img/Collection.jpg")
+          source(media="(min-width: 768px)" srcset="img/CollectionT.jpg")
+          img(src="img/CollectionM.jpg" alt="Fall 2019").collection__img
     section.category
       .container
         h2.section-title Shop by category

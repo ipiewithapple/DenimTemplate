@@ -66,34 +66,33 @@
   }
 
   // collection
-  .collection {
+
+  .collection .container {
     display: flex;
+    padding: 0 45px;
+  }
 
-    & .container {
-      width: 50%;
-      box-sizing: border-box;
-      margin-right: 45px;
-      padding: 20px;
-      padding-left: 0;
-      order: 1;
-    }
+  .collection__img {
+    flex-basis: 55%;
+  }
 
-    & picture {
-      width: 50%;
-      margin-left: 45px;
-    }
+  .collection__block-wrap {
+    flex-basis: 45%;
+    flex-grow: 1;
+    order: 1;
+    padding: 20px;
+    padding-left: 0;
   }
 
   .collection__block {
-    padding: 40px 35px;
-    height: auto;
-    box-sizing: border-box;
+    padding: 50px;
+    padding-right: 0;
     text-align: left;
   }
 
   .collection__title {
-    font-size: 2rem;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
   }
 
   // category
@@ -187,4 +186,12 @@
       order: 1;
     }
   }
+
+  // collection
+
+  .collection .container {
+
+    padding: 0 98px;
+  }
+
 }
