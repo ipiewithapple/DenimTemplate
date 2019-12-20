@@ -79,7 +79,9 @@
 .header__down-arrow {
   width: 10px;
   height: 30px;
+  background-color: transparent;
   background: url("../img/icons/down.svg") no-repeat center center;
+  border: none;
 }
 
 .header__social {
